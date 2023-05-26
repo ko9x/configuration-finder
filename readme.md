@@ -1,6 +1,9 @@
-Make some notes about this process in MyNotes
+* Make some notes about this process in MyNotes!
 
-Since we didn't specify a username in our docker-compose.yml file the database username is "postgres" and the password is "secret"
+* To spin up the docker container navigate to the root directory of this project and run this command:
+    * `docker compose up -d`
+
+* Since we didn't specify a username in our docker-compose.yml file the database username is "postgres" and the password is "secret"
 
 * If you run this command while the container is running you will be inside the apache server
     * docker-compose exec php-apache /bin/bash
