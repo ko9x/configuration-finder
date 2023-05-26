@@ -1,4 +1,6 @@
 ### Current Focus
+* Figure out how to stop tracking postgres-data folder when spinning up and down docker!
+
 * Continue following the tutorial as necessary
     * https://www.twilio.com/blog/get-started-docker-laravel
         * We stopped at "Build the application"
